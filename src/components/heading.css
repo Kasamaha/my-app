@@ -1,0 +1,8 @@
+.Heading1{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: brown;
+    padding: 10px;
+      
+}

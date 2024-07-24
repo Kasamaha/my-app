@@ -1,0 +1,8 @@
+.Ipl2 {
+    display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  
+  padding: 10px;
+    
+    }
