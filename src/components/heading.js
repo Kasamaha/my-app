@@ -1,5 +1,13 @@
+import BasicProgress from './bootstrap/progress'
 import './heading.css'
 import './Heading2.css'
+
+
+    const Calucalator=(input)=>{
+        const base=30
+        let percentage=(input/base)*100
+        return percentage;
+    }
 const Heading1=()=>{
     return (
     <div className='Heading1'>
@@ -14,6 +22,7 @@ const Heading1=()=>{
     return (
     <div >
         <h5> No of Tropfies:{Tropfy}</h5>
+        <BasicProgress scale = {Calucalator(Tropfy) }></BasicProgress>
         
     </div>)
 };

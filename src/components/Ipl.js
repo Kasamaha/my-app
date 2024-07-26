@@ -1,9 +1,11 @@
 export const Ipl=[
     {
-    Title:"KKR",
-    source:"https://i.pinimg.com/originals/c8/e9/e6/c8e9e65d1d2f9d2472dd64a875c5c238.jpg",
-    Tropfy:3,
-},
+        Title:"RR",
+        source:"https://t4.ftcdn.net/jpg/05/11/56/65/360_F_511566512_UbXPq5C01Iy6JpDzZ2ogEWuZlaMhSXqL.jpg",
+        Tropfy:16, 
+    },
+   
+
 {
     Title:"DC",
     source:"https://static.toiimg.com/thumb/msid-72902628,width-400,resizemode-4/72902628.jpg",
@@ -20,20 +22,21 @@ export const Ipl=[
     Tropfy:5, 
 },
 {
-    Title:"RR",
-    source:"https://t4.ftcdn.net/jpg/05/11/56/65/360_F_511566512_UbXPq5C01Iy6JpDzZ2ogEWuZlaMhSXqL.jpg",
-    Tropfy:16, 
+    Title:"LSG",
+    source:"https://hindustantimes.com/static-content/1y/cricket-logos/teams/LSG.png?2",
+    Tropfy:5, 
+},
+{
+    Title:"KKR",
+    source:"https://i.pinimg.com/originals/c8/e9/e6/c8e9e65d1d2f9d2472dd64a875c5c238.jpg",
+    Tropfy:3,
 },
 {
     Title:"SRH",
     source:"https://w0.peakpx.com/wallpaper/259/184/HD-wallpaper-sunrisers-hyderabad-cricket-dream11-ipl-iplt20-sports-srh-t20.jpg",
     Tropfy:1, 
 },
-{
-    Title:"LSG",
-    source:"https://hindustantimes.com/static-content/1y/cricket-logos/teams/LSG.png?2",
-    Tropfy:5, 
-},
+
 {
     Title:"PBKS",
     source:"https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg",
