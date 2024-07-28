@@ -4,7 +4,7 @@ import './Heading2.css'
 
 
     const Calucalator=(input)=>{
-        const base=30
+        const base=1000
         let percentage=(input/base)*100
         return percentage;
     }
@@ -18,11 +18,12 @@ const Heading1=()=>{
     </div>)
 };
  export const Heading2=(props)=>{
-    const {Tropfy}=props
+    const {price}=props
+
     return (
     <div >
-        <h5> No of Tropfies:{Tropfy}</h5>
-        <BasicProgress scale = {Calucalator(Tropfy) }></BasicProgress>
+        <h5> No of Tropfies:{price}</h5>
+        {/* <BasicProgress scale = {Calucalator(Tropfy) }></BasicProgress> */}
         
     </div>)
 };
