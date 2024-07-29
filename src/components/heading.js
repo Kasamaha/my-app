@@ -1,7 +1,7 @@
 // import BasicProgress from './bootstrap/progress'
 // import './heading.css'
 // import './Heading2.css'
-
+import { Items } from "./Ipl";
 
 //     const Calucalator=(input)=>{
 //         const base=30
@@ -49,40 +49,40 @@ import React from "react";
 import BasicProgress from "./bootstrap/progress";
 //import Counter from "./Counter";
 
-const Calculator = (input) => {
-  const base = 17;
-  let percentage = (input / base) * 100;
-  return percentage;
-};
+// const Calculator = (input) => {
+//   const base = 17;
+//   let percentage = (input / base) * 100;
+//   return percentage;
+// };
 
-export const Heading1 = () => (
-  <div className='Heading1'>
-    <h3>Home</h3>
-    <h3>Title</h3>
-    <h3>Logo</h3>
-    <h3>Trophies</h3>
-  </div>
-);
+//export const Heading1 = () => (
+  // <div className='Heading1'>
+  //   <h3>Home</h3>
+  //   <h3>Title</h3>
+  //   <h3>Logo</h3>
+  //   <h3>Trophies</h3>
+  // </div>
+//);
 
-export const Heading2 = ({  Tropfy }) => (
+ const Heading2 = ({  preparation }) => (
   <div>
-    <h5>Number of Trophies: { Tropfy}</h5>
-    <BasicProgress scale={Calculator( Tropfy)} />
+    <h5>preparation: { preparation}</h5>
+    {/* <BasicProgress scale={Calculator( Tropfy)} /> */}
   </div>
 );
 
-export const Heading3 = ({ Title }) => (
+export const Heading3 = ({ title }) => (
   <div>
-    <h1>Title: {Title}</h1>
+    <h1>title: {title}</h1>
   </div>
 );
 
-export const Heading = () => (
-  <center>
-    <div className='Heading'>
-      <h3>Powered by IPL Team</h3>
-    </div>
-  </center>
-);
+// export const Heading = () => (
+//   <center>
+//     <div className='Heading'>
+//       <h3>Powered by IPL Team</h3>
+//     </div>
+//   </center>
+// );
 
-export default Heading1;
+export default Heading2;

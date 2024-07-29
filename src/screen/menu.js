@@ -1,12 +1,21 @@
-
+//import { Navbar } from "react-bootstrap"
+import Card from "../components/card";
+import Heading2 from "../components/heading";
+import { Heading3 } from "../components/heading";
+import { Items } from "../components/Ipl";
+import Img from "../components/img";
+import Navbar from "../navbar/navbar";
 
 
 const Menu=()=>{
     return(
         <>
-        <h2>Veg Menu</h2>
-        <h2>Non_veg</h2>
+        <Navbar/>
+        <Card>
+            
+        </Card>
         </>
+
     )
 }
 export default Menu;
