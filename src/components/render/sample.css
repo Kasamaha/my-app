@@ -1,0 +1,32 @@
+.component-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling when the list is empty */
+  .empty-list-message {
+    color: #ff4d4d; /* Red color for empty list message */
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Styling when the list is not empty */
+  .non-empty-list-message {
+    color: #4dff4d; /* Green color for non-empty list message */
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the list items */
+  .list-item {
+    font-size: 18px;
+    color: #333;
+    list-style-type: none; /* Removes default list styling */
+    padding: 5px;
+    border-bottom: 1px solid #ccc; /* Light border between list items */
+  }
+  
+  .list-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
