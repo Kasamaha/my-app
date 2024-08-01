@@ -1,0 +1,12 @@
+.lucky{
+    margin:30px;
+    height: 600px;
+    width:700px;
+    background-color: aqua;
+    border: 2px solid red;
+   
+}
+.mahi{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
