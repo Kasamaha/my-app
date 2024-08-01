@@ -11,10 +11,10 @@ const App=()=>{
   return(
     <>
     {/* <Form/> */}
-    {/* <NavigationStack/> */}
+    <NavigationStack/>
     {/* <Fetch/> */}
     {/* <SqareComponent/> */}
-    <FetchFackStore/>
+    {/* <FetchFackStore/> */}
     </>
   )
 }

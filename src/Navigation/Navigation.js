@@ -3,6 +3,9 @@ import MainScreen from "../screen/MainScreen";
 import Menu from "../screen/menu";
 import Register from "../screen/register";
 import Location from "../screen/location2";
+import Recipies from "../screen/recipes";
+import RecipeDetails from "../screen/recipedetails";
+import Recipis from "../components/dummy";
 const NavigationStack=()=>{
     return(
         <BrowserRouter>
@@ -14,6 +17,8 @@ const NavigationStack=()=>{
            <Route path="/Menu" element={<Menu/>}/>
         <Route path="/Register" element={<Register/>}/>
         <Route path="/Location" element={<Location/>}/>
+        <Route path="/Recipies" element={<Recipis/>}/>
+        <Route path="/:cuisine/:RecipiId" element={<RecipeDetails/>}/>
             
             
             
