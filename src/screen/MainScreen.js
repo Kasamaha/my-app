@@ -9,9 +9,9 @@ const MainScreen=()=>{
         <Navbar/>
         <h2>MainScreen</h2>
         <Image/>
-        <Menu/>
+        {/* <Menu/>
         <Location/>
-        <Register/>
+        <Register/> */}
         </>
     )
 }

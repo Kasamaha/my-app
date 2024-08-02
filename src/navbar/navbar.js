@@ -13,14 +13,17 @@ return(
         <li className="nav-item">
           <Link to={"/Menu"} style={{margin:100,textDecoration:"none"}}>Menu</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to={"/Location"}style={{margin:100,textDecoration:"none"}}>Location</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
          <Link to={"/Register"} style={{margin:100,textDecoration:"none"}}>Register</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
          <Link to={"/Recipies"} style={{margin:100,textDecoration:"none"}}>Recipies</Link>
+        </li> */}
+        <li className="nav-item">
+         <Link to={"/Recipis"} style={{margin:100,textDecoration:"none"}}>Recipies</Link>
         </li>
       </ul>
     </div>

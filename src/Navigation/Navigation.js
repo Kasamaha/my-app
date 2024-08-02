@@ -16,9 +16,11 @@ const NavigationStack=()=>{
            <Route path="/" element={<MainScreen/>}/>
            <Route path="/Menu" element={<Menu/>}/>
         <Route path="/Register" element={<Register/>}/>
-        <Route path="/Location" element={<Location/>}/>
-        <Route path="/Recipies" element={<Recipis/>}/>
+        {/* <Route path="/Location" element={<Location/>}/> */}
+        {/* <Route path="/Recipies" element={<Recipies/>}/> */}
+        <Route path="/Recipis" element={<Recipis/>}/>
         <Route path="/:cuisine/:RecipiId" element={<RecipeDetails/>}/>
+        
             
             
             

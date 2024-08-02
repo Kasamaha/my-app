@@ -5,15 +5,17 @@ import { Heading3 } from "../components/heading";
 import { Items } from "../components/Ipl";
 import Img from "../components/img";
 import Navbar from "../navbar/navbar";
+import Recipies from "./recipes";
 
 
 const Menu=()=>{
     return(
         <>
         <Navbar/>
-        <Card>
+        {/* <Card>
             
-        </Card>
+        </Card> */}
+        <Recipies/>
         </>
 
     )

@@ -1,8 +1,8 @@
 
-
+import Navbar from "../navbar/navbar";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Spinner, Card, Container, Row, Col } from "react-bootstrap";
+import { Spinner, Card, Container, Row, Col,  } from "react-bootstrap";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
 
@@ -28,6 +28,7 @@ const RecipeDetails = () => {
         }
     };
 
+
     if (loading) {
         return (
             <Container>
@@ -43,6 +44,7 @@ const RecipeDetails = () => {
 
     if (error) {
         return (
+            
             <Container>
                 <Row className="justify-content-center mt-5">
                     <Col xs={12} md={6} className="text-center">
@@ -52,8 +54,13 @@ const RecipeDetails = () => {
             </Container>
         );
     }
-
+  
+    
     return (
+        
+       
+       <>
+       <Navbar/>
         <Container className="mt-5">
             <Row className="justify-content-center">
                 <Col xs={12} md={8} lg={6}>
@@ -77,7 +84,7 @@ const RecipeDetails = () => {
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </Container></>
     );
 };
 

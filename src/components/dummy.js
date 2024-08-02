@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Recipis= () => {
   const [recipeList, setRecipeList] = useState([]);
-  const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const [selectedRecipe, setSelectedRecipe] = useState();
 
   useEffect(() => {
     fetchRecipes();
@@ -22,8 +22,8 @@ const Recipis= () => {
     }
   };
 
-  const handleSelectChange = (e) => {
-    const selectedName = e.target.value;
+  const handleSelectChange = (name) => {
+    const selectedName = name.target.value;
     const recipe = recipeList.find((recipe) => recipe.name.toString() === selectedName);
     setSelectedRecipe(recipe);
   };
@@ -32,7 +32,7 @@ const Recipis= () => {
     <>
       <Navbar />
       <h2>Recipes List</h2>
-      <label htmlFor="recipe">Select a recipe by ID:</label>
+    
       <select name="recipeSelect" onChange={handleSelectChange}>
         <option value="">select the name</option>
         {recipeList.map((recipe) => (
@@ -43,7 +43,7 @@ const Recipis= () => {
       </select>
 
       {selectedRecipe && (
-        <div>
+        <div >
           <h4>{selectedRecipe.id}</h4>
           <h4>{selectedRecipe.name}</h4>
           <h4>{selectedRecipe.cuisine}</h4>
@@ -57,3 +57,4 @@ const Recipis= () => {
 };
 
 export default Recipis;
+
